@@ -1,0 +1,27 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../MyHomeRoutine-server"
+		},
+		{
+			"path": "../MyHomeRoutine-admin"
+		}
+	],
+	"settings": {
+		"sqltools.connections": [
+			{
+				"previewLimit": 50,
+				"server": "localhost",
+				"port": 5432,
+				"driver": "PostgreSQL",
+				"name": "My Home Routine",
+				"database": "mhr",
+				"username": "user",
+				"password": "mysecretpassword"
+			}
+		]
+	}
+}
